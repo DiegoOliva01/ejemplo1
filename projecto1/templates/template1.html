@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personas_de_la_flia</title>
+</head>
+<body>
+   {% for i in diccionario %}
+   <div>
+
+    <p>mombre: {{i.nombre}}</p>
+    <p>apellido: {{i.apellido}}</p>
+    <p>edad: {{i.edad}}</p>
+    <p>trabajo: {{i.trabajo}}</p>
+    <p>hijos: {{i.hijos}}</p>
+    <p>fecha de nacimiento{{i.nacimiento}}</p>
+   </div>
+   {% endfor %} 
+</body>
+</html>
