@@ -22,7 +22,7 @@ def individuo (request):
 
     plantilla=loader.get_template("template1.html")
 
-    diccionario={"familiares:"[persona_1,persona_2,persona_3,persona_4]}
+    diccionario={"familiares" : [persona_1,persona_2,persona_3,persona_4]}
 
     documento=plantilla.render(diccionario)
 
